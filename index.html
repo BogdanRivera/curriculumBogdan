@@ -24,25 +24,29 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 <body>
     <!-- Barra de navegación -->
-    <nav class="navbar navbar-expand-md navbar-light">
+    <nav class="navbar navbar-expand-md ">
         <div class="container-fluid">
           <button class="navbar-toggler" type="button"  data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbar-toggler">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="">
                 <img src="./images/logoBogdan.png" alt="Logo Bogdan" width="100px" height="100px" >
             </a>
             <ul class="navbar-nav d-flex justify-content-center align-items-center">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+                <a class="nav-link " aria-current="page" href="#sobre-mi">Sobre mí</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#experiencia">Experiencia</a>
+                <a class="nav-link " aria-current="page" href="#experiencia">Experiencia</a>
               </li>
 
               <li class="nav-item">
@@ -60,14 +64,32 @@
       </nav>
 
       <!-- Sección Hero -->
+       <div></div>
       <section class="hero align-items-stretch">
-        <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <div class="hero-principal d-flex flex-column justify-content-center align-items-center"
+        data-aos="fade-down"
+        data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+        data-aos-anchor-placement="center-bottom">
+
           <img class="hero-imagen-desarrollador" src="./images/Perfil.png" alt="Foto de Perfíl">
           <h1>Hola, soy Bogdan Rivera</h1>
           <h2>Desarrollo páginas web y aplicaciones de inteligencia artificial en la ciencia de datos</h2>
         </div>
 
-        <div class="hero-inferior">
+        <div class="hero-inferior"
+        data-aos="fade-up"
+        data-aos-offset="50"
+        data-aos-delay="50"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+        data-aos-anchor-placement="top-center">
           <img class="hero-inferior-imagen img-fluid" src="./images/Lenguajes.png" alt="Computadora y logo de HTML, CSS, JS y react">
         </div>
       </section>
@@ -75,9 +97,9 @@
       <!-- Sobre mi -->
       <section id="sobre-mi" class="sobre-mi seccion-oscura">
         <div class="contenedor">
-          <h2 class="seccion-titulo sep">Conoce a Bogdan Rivera</h2>
+          <h2 class="seccion-titulo sep">Acerca de mi</h2>
           <p class="seccion-texto">
-            Ingeniero en mecatrónica, con conocimientos en desarrollo de software y destacado profesional en ciencia de datos, 
+            Soy ingeniero en mecatrónica, con conocimientos en desarrollo de software y destacado profesional en ciencia de datos, 
             respaldado por un año de inmersión en el dinámico campo de la tecnología de la información. Como apasionado autodidacta, 
             estoy siempre en búsqueda de oportunidades para integrar de manera sinérgica mis habilidades en desarrollo y comunicación. 
             Al mismo tiempo, mi continua exploración de los avances en el desarrollo de software y la inteligencia artificial me impulsa a 
@@ -88,7 +110,14 @@
 
       <!-- Experiencia -->
       <section id="experiencia" class="experiencia seccion-clara">
-        <div class="container text-center">
+        <div class="container text-center" 
+        data-aos="fade-down-right"
+        data-aos-delay="50"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+        data-aos-anchor-placement="top-up">
           <div class="row">
             <!-- Machine Learning -->
             <div class="columna col-12 col-md-4 sep">
@@ -163,9 +192,17 @@
         <!-- Galeria de Proyectos -->
         <div class="container text-center proyectos-contenedor">
           <div class="row">
+            <div></div>
             
               <div class="col-12 col-md-6 col-lg-4">
-                <div class="proyecto">
+                <div class="proyecto"
+              data-aos="fade-right"
+              data-aos-delay="10"
+              data-aos-duration="800"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="false"
+              data-aos-anchor-placement="top-up">
                   <img class="img-fluid" src="./images/fastApiProject.png" alt="Proyect backend FastApi">
                   <div class="overlay">
                     <span class="badge text-bg-secondary">Web Development</span>
@@ -181,7 +218,14 @@
                 </div> 
 
                 <div class="col-12 col-md-6 col-lg-4">
-                  <div class="proyecto">
+                  <div class="proyecto"
+                  data-aos="fade-right"
+                  data-aos-delay="10"
+                  data-aos-duration="800"
+                  data-aos-easing="ease-in-out"
+                  data-aos-mirror="true"
+                  data-aos-once="false"
+                  data-aos-anchor-placement="top-up">
                     <img class="img-fluid" src="./images/Badge-Conversor.png" alt="Conversor de monedas en Java">
                     <div class="overlay">
                       <span class="badge text-bg-secondary">Web Development</span>
@@ -194,7 +238,14 @@
                   </div> 
 
                   <div class="col-12 col-md-6 col-lg-4">
-                    <div class="proyecto">
+                    <div class="proyecto"
+                    data-aos="fade-right"
+                    data-aos-delay="10"
+                    data-aos-duration="800"
+                    data-aos-easing="ease-in-out"
+                    data-aos-mirror="true"
+                    data-aos-once="false"
+                    data-aos-anchor-placement="top-up">
                       <img class="img-fluid" src="./images/guessTheNumberGame.png" alt="Guess the number game imagen">
                       <div class="overlay">
                         <span class="badge text-bg-secondary">Web Development</span>
@@ -210,7 +261,14 @@
                     </div> 
 
             <div class="col-12 col-md-6 col-lg-4">
-              <div class="proyecto">
+              <div class="proyecto"
+                    data-aos="fade-left"
+                    data-aos-delay="10"
+                    data-aos-duration="800"
+                    data-aos-easing="ease-in-out"
+                    data-aos-mirror="true"
+                    data-aos-once="false"
+                    data-aos-anchor-placement="top-up">
                 <img class="img-fluid" src="./images/stop-signal.jpeg" alt="Stop signal prediction imagen">
                 <div class="overlay">
                   <span class="badge text-bg-secondary" >Machine Learning</span>
@@ -225,7 +283,14 @@
               </div> 
 
             <div class="col-12 col-md-6 col-lg-4">
-              <div class="proyecto">
+              <div class="proyecto"
+                    data-aos="fade-left"
+                    data-aos-delay="10"
+                    data-aos-duration="800"
+                    data-aos-easing="ease-in-out"
+                    data-aos-mirror="true"
+                    data-aos-once="false"
+                    data-aos-anchor-placement="top-up">
                 <img class="img-fluid" src="./images/proyecto1.png" alt="Proyecto Halo Infinite Only CSS">
                 <div class="overlay">
                   <span class="badge text-bg-secondary" >Web Development</span>
@@ -244,7 +309,14 @@
               </div>
               
               <div class="col-12 col-md-6 col-lg-4">
-                <div class="proyecto">
+                <div class="proyecto"
+                    data-aos="fade-left"
+                    data-aos-delay="10"
+                    data-aos-duration="800"
+                    data-aos-easing="ease-in-out"
+                    data-aos-mirror="true"
+                    data-aos-once="false"
+                    data-aos-anchor-placement="top-up">
                   <img class="img-fluid" src="./images/car-bluetooth.jpeg" alt="Robot móvil controlado por bluetooth imagen">
                   <div class="overlay">
                     <span class="badge text-bg-secondary">Mecatrónica</span>
@@ -259,7 +331,14 @@
                 </div> 
 
                 <div class="col-12 col-md-6 col-lg-4">
-                  <div class="proyecto">
+                  <div class="proyecto"
+                  data-aos="fade-right"
+                    data-aos-delay="10"
+                    data-aos-duration="800"
+                    data-aos-easing="ease-in-out"
+                    data-aos-mirror="true"
+                    data-aos-once="false"
+                    data-aos-anchor-placement="top-up">
                     <img class="img-fluid" src="./images/encriptador.png" alt="Encriptador de texto imagen">
                     <div class="overlay">
                       <span class="badge text-bg-secondary" >Web Development</span>
@@ -278,7 +357,14 @@
                   </div> 
 
                   <div class="col-12 col-md-6 col-lg-4">
-                    <div class="proyecto">
+                    <div class="proyecto"
+                    data-aos="fade-right"
+                    data-aos-delay="10"
+                    data-aos-duration="800"
+                    data-aos-easing="ease-in-out"
+                    data-aos-mirror="true"
+                    data-aos-once="false"
+                    data-aos-anchor-placement="top-up">
                       <img class="img-fluid" src="./images/tesis.jpg" alt="Proyecto tesis imagen">
                       <div class="overlay">
                         <span class="badge text-bg-secondary" >Mecatrónica</span>
@@ -301,7 +387,14 @@
                     </div> 
 
                     <div class="col-12 col-md-6 col-lg-4">
-                      <div class="proyecto">
+                      <div class="proyecto"
+                      data-aos="fade-left"
+                      data-aos-delay="10"
+                      data-aos-duration="800"
+                      data-aos-easing="ease-in-out"
+                      data-aos-mirror="true"
+                      data-aos-once="false"
+                      data-aos-anchor-placement="top-up">
                         <img class="img-fluid" src="./images/credit-card.jpeg" alt="Detección de fraudes interbancarios imagen">
                         <div class="overlay">
                           <span class="badge text-bg-secondary" >Machine Learning</span>
@@ -322,7 +415,15 @@
       </section>
 
       <!-- Certificados -->
-      <section id="certificados" class="certificados justify-content-start">
+      <section id="certificados" class="certificados justify-content-start"
+      data-aos="fade-up-left"
+      data-aos-offset="50"
+      data-aos-delay="20"
+      data-aos-duration="700"
+      data-aos-easing="ease-out-sine"
+      data-aos-mirror="true"
+      data-aos-once="false"
+      data-aos-anchor-placement="top-center">
         <h2 class="seccion-titulo texto-negro">Certificados</h2>
 
         <div class="card sep">
@@ -340,12 +441,12 @@
               <li class="list-group-item d-flex justify-content-between">IBM. Introduction to Computer Vision and Image Processing <i class="bi bi-box-arrow-up-right"></i> </li>
             </a>
 
-            <a href="https://www.udemy.com/certificate/UC-d4ef2d05-5144-47af-9e6e-c18f8bf882bc/" target="_blank" rel="noopener noreferrer">
-              <li class="list-group-item d-flex justify-content-between">Universidad HTML <i class="bi bi-box-arrow-up-right"></i></li>
+            <a href="https://app.aluracursos.com/user/bogdanrivera/fullCertificate/8cb64f1bbecc23d0cc60d05036d5e50c" target="_blank" rel="noopener noreferrer">
+              <li class="list-group-item d-flex justify-content-between">Alura Latam - Oracle: Programa de especialización Backend Spring Boot<i class="bi bi-box-arrow-up-right"></i></li>
             </a>
 
-            <a href="https://www.udemy.com/certificate/UC-b2810966-d857-4110-8858-5d73f7a57be7/?utm_campaign=email&utm_medium=email&utm_source=sendgrid.com" target="_blank" rel="noopener noreferrer">
-              <li class="list-group-item d-flex justify-content-between">Universidad CSS <i class="bi bi-box-arrow-up-right"></i></li>
+            <a href="https://www.coursera.org/account/accomplishments/verify/DVJUGNJ86YK6" target="_blank" rel="noopener noreferrer">
+              <li class="list-group-item d-flex justify-content-between">IBM. Data Analysis with Python <i class="bi bi-box-arrow-up-right"></i></li>
             </a>
 
             <a href="https://platzi.com/p/bugy1998/curso/4260-python-funciones/diploma/detalle/" target="_blank" rel="noopener noreferrer">
@@ -353,7 +454,7 @@
             </a>
 
             <a href="https://app.aluracursos.com/degree/certificate/b87bdcee-8586-4eed-b32c-2efbfa2c8a91" target="_blank" rel="noopener noreferrer">
-              <li class="list-group-item d-flex justify-content-between">Alura Latam: Formación Principiante en Programación G6 - ONE <i class="bi bi-box-arrow-up-right"></i></li>
+              <li class="list-group-item d-flex justify-content-between">Alura Latam - Oracle: Formación Principiante en Programación G6 - ONE <i class="bi bi-box-arrow-up-right"></i></li>
             </a>
             
             <a href="https://constancias.cenidet.tecnm.mx/" target="_blank" rel="noopener noreferrer">
@@ -377,7 +478,15 @@
       <section id="contacto" class="contacto seccion-oscura">
         <div class="container">
           <div class="container text-center rectangulo d-flex justify-content-evenly">
-            <div class="row">
+            <div class="row" 
+            data-aos="fade-right"
+            data-aos-offset="50"
+            data-aos-delay="20"
+            data-aos-duration="700"
+            data-aos-easing="ease-out-sine"
+            data-aos-mirror="true"
+            data-aos-once="false"
+            data-aos-anchor-placement="top-center">
               <div class="col-12 col-md-4 seccion-titulo">
                 ¡Hablémos!
               </div>
@@ -432,5 +541,11 @@
 
     <!-- Boostrap for JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- AOS for JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
 </body>
 </html>

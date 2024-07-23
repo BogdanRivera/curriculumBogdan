@@ -2,7 +2,16 @@
 
 .navbar{
     padding: 2rem;
-    background-color: #f5f6f7;
+    background-color: #1b1b32;
+    height: 100px;
+}
+
+.navbar-collapse li a{
+    color: #ffffff;
+}
+
+.navbar-collapse li a:hover{
+    color: #4aacee;
 }
 
 .navbar-collapse{
