@@ -3,7 +3,12 @@
 .navbar{
     padding: 2rem;
     background-color: #1b1b32;
-    height: 100px;
+    max-height: 500px;
+    min-width: 100px;
+}
+.fondo-color{
+    background-color: #7ade30;
+    border-color: none;
 }
 
 .navbar-collapse li a{
