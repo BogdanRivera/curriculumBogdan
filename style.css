@@ -5,6 +5,7 @@
     background-color: #1b1b32;
     max-height: 500px;
     min-width: 100px;
+    max-width: 100%;
 }
 .fondo-color{
     background-color: #7ade30;
@@ -402,7 +403,7 @@ footer{
 
 }
 
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 746px) {
     /* Contacto */
 
 .contacto{
